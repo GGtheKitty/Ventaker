@@ -18,3 +18,5 @@ A lot of the work in this one was made using it as a reference! Go show it some 
   
 ## Usage
 Once the plugin is enabled, open its settings box located on the plugin square itself. Two values for you to change, which are the walltaker URL, and the link ID.
+
+The use of a transparent theme is needed in order to see the image. https://github.com/ClearVision/ClearVision-v7 is one that is known to work.
