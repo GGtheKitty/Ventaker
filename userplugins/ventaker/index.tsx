@@ -178,7 +178,7 @@ function connect(linkId: string, baseUrl: string) {
     const identifier = JSON.stringify({
         channel: "LinkChannel",
         link_id: linkId,
-        client: "Ventaker/1.0.0"
+        client: "Ventaker"
     });
 
     const connection = new WebSocket(webSocketUrl);
@@ -239,7 +239,10 @@ function applyStyles() {
 export default definePlugin({
     name: "Ventaker",
     description: "Changes your Discord background to one from Walltaker",
-    authors: [{ name: "Lumi", id: 633026209479000065n }],
+    authors: [
+        { name: "Lumi", id: 633026209479000065n },
+        { name: "GGtheKitty", id: 748710635084447845n }
+    ],
     settings,
     startAt: StartAt.DOMContentLoaded,
     start() {
